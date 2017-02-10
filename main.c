@@ -22,7 +22,7 @@ int main() {
                 result = d1 * d2;
                 break;
             case '/':
-                result = d1 / d2;
+                result = d1 / d2;   //TODO: make this work. 10/2 = 100
             case '^':
                 result = pow(d1, d2);
         }
